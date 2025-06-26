@@ -1,15 +1,3 @@
-//Git deployment setup
-//Run these commands in terminal after initializing the repo
-cd path-to-your-project-folder
-
-git init
-git add .
-git commit -m "Deploy Christ Secret Service"
-git remote add origin https://github.com/shadow1215225/cjcpur-secret-service.git
-git branch -M main
-git push -u origin main
-
-
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { BrowserRouter as Router, Route, Routes, Link, useNavigate } from "react-router-dom";
